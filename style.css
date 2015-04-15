@@ -1,0 +1,149 @@
+
+#main-header{
+    width:auto;
+	height:100px;
+	background-color: blue;
+	font-family: Arial, sans serif;
+	font-size: 150%;
+	text-align: center;
+	color: white;
+}
+
+form p{
+
+	font-family: Arial, sans serif;
+	font-size: 150%;
+	text-align: center;
+	color: white;
+
+
+}
+
+body{
+	background-color: white;
+	text-align: center;
+	background-image: url("images/background.jpg");
+	 
+}
+
+#nav{ 
+	background: blue;
+}
+
+ul#nav{ 
+	margin:0;
+	width: auto;
+}
+
+ul#nav li{ 
+	padding: 0 0 0 0px;
+	list-style: none;
+	margin: 2px 0 0 0;
+	display: inline;
+	background: transparent;
+ }
+
+ul#nav li a{ 
+	float: center;
+	font: bold 120% Arial, Helvetica, sans-serif;
+	height: 24px;
+	margin: 10px 0 0 20px;
+	text-shadow: 1px 1px #000;
+	padding: 6px 20px 0 20px;
+	background: transparent; 
+	text-align: center;
+	color: white;
+	text-decoration: none;
+} 
+  
+ul#nav li.current a, ul#nav li:hover a{ 	
+	/*color: #000; */
+	color: red;
+	text-shadow: 0px 1px 0px #535353;
+ }
+
+#menubar{ 
+	width: auto;
+	height: 50px;
+	text-align: center;
+  } 
+
+ 
+footer{ 
+	font-family:Arial, sans-serif;
+	width: auto;
+	background-color: blue;
+	height:50px;
+	text-align:center;
+	color: white;
+	
+}
+   
+footer a{ 
+	color: #FFF;
+	text-decoration: none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+footer a:hover{ 
+	color: red;
+	text-shadow: 0px 1px 0px #535353;
+}
+	
+.slideshow
+{ width: auto;
+  height: 350px;
+  float: center;}  
+  
+/* styling for the slideshow on the homepage */
+ul.slideshow {
+  list-style: none;
+  width: auto;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  padding:3px;
+  /*border:#666 solid 2px;
+  border-radius:5px; */
+ }
+  
+ul.slideshow li {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;}
+ 
+ul.slideshow li.show {
+  z-index: 500;}
+ 
+ul img {
+  border: none;}
+ 
+#site_content
+{ width: auto;
+  overflow: hidden;
+  margin-bottom: 30px;
+  } 
+ 
+#slideshow-caption {
+  width: 680px;
+  height: 38px;
+  position: absolute;
+  bottom: 0;
+  left: 0; 
+  z-index: 500;}
+ 
+#slideshow-caption .slideshow-caption-container {
+  padding: 10px 25px 10px 25px; 
+  background: transparent url(../images/transparent.png) repeat;  
+  z-index: 1000;}
+ 
+#slideshow-caption p {
+  padding: 0;
+  font: normal 130% arial, sans-serif;
+  color: #FFF;
+  text-shadow: 1px 1px #000;}
+ 
