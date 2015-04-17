@@ -15,12 +15,9 @@ form p{
 	font-size: 150%;
 	text-align: center;
 	color: white;
-
-
 }
 
 body{
-	background-color: white;
 	text-align: center;
 	background-image: url("images/background.jpg");
 	 
@@ -68,7 +65,29 @@ ul#nav li.current a, ul#nav li:hover a{
 	text-align: center;
   } 
 
+
+#main-content{
+	background: blue; 
+	margin-top: 50px;
+	font-family: Arial, sans serif;
+	text-align: center;
+	color: white;
+}
+
+#main-content h2{
  
+	font-family: Arial, sans serif;
+	text-align: center;
+	color: white;
+}
+
+#main-content h3{
+ 
+	font-family: Arial, sans serif;
+	text-align: center;
+	color: white;
+}
+  
 footer{ 
 	font-family:Arial, sans-serif;
 	width: auto;
@@ -93,7 +112,8 @@ footer a:hover{
 	
 .slideshow
 { width: auto;
-  height: 350px;
+	background: blue;
+  height: 305px;
   float: center;}  
   
 /* styling for the slideshow on the homepage */
