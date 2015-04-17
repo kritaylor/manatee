@@ -10,13 +10,10 @@
 }
 
 form p{
-
 	font-family: Arial, sans serif;
 	font-size: 150%;
 	text-align: center;
 	color: white;
-
-
 }
 
 body{
@@ -68,13 +65,34 @@ ul#nav li.current a, ul#nav li:hover a{
 	text-align: center;
   } 
 
-#learn, p {
+#main-content{
+	background: blue; 
+	margin-top: 50px;
+	font-family: Arial, sans serif;
+	text-align: center;
+	color: white;
+}
+
+#main-content h2{
+ 
+	font-family: Arial, sans serif;
+	text-align: center;
+	color: white;
+}
+
+#main-content h3{
+ 
+	font-family: Arial, sans serif;
+	text-align: center;
+	color: white;
+}
+  
+ #learn, p {
 	color:#2E0854; 
 	font-size:175%;
 	font-family:Garamond;
 	float:center;
 	font-style: bold;
-
 } 
 
 footer{ 
@@ -99,10 +117,12 @@ footer a:hover{
 	text-shadow: 0px 1px 0px #535353;
 }
 	
-.slideshow
-{ width: auto;
-  height: 350px;
-  float: center;}  
+.slideshow { 
+	width: auto;
+  	height: 350px;
+	background: blue;
+  	height: 305px;
+  	float: center;}  
   
 /* styling for the slideshow on the homepage */
 ul.slideshow {
